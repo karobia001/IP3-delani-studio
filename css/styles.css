@@ -1,0 +1,9 @@
+.section1{
+    background-image: url(../ip3-assets/assets/backgrounds/h_img.jpg);
+    background-size: 100%;
+}
+.jumbotron {
+    background: transparent;
+    text-align: center;
+    color: white;
+}
