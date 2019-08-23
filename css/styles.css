@@ -1,9 +1,21 @@
 .section1{
     background-image: url(../ip3-assets/assets/backgrounds/h_img.jpg);
     background-size: 100%;
+
 }
 .jumbotron {
     background: transparent;
     text-align: center;
     color: white;
+}
+.section2{
+    text-align: center;
+}
+.section3{
+    background-image: url(../ip3-assets/assets/backgrounds/s_image.jpg);
+    text-align: center;
+    color:white;
+}
+.section4{
+    text-align: center;
 }
