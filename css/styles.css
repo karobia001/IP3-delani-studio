@@ -1,14 +1,16 @@
-.section1{
+/* .section1{
     background-image: url(../ip3-assets/assets/backgrounds/h_img.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+    
 
-}
-.jumbotron {
+} */
+ /* .jumbotron {
     background: transparent;
     text-align: center;
-    color: white;
-}
-.section2{
+    color: white; 
+} */
+/* .section2{
     text-align: center;
 }
 .section3{
@@ -18,4 +20,50 @@
 }
 .section4{
     text-align: center;
+} */
+/* .section5{
+    text-align: center;
 }
+.section5 .row{
+    text-align: center;
+}
+#design-info{
+    display:none;
+}
+#dev-info{
+    display: none;
+}
+#prod-info{
+    display: none;
+} */
+/* .section6{
+    background-image: url(../ip3-assets/assets/backgrounds/c_image.jpg);
+    text-align:center;
+    color: white;
+} */
+/* input{
+    background: transparent;
+    color: white;
+} */
+/* placeholder{
+    color: white;
+}
+name-detail{
+    color: white;
+}
+.col-sm-3{
+    padding-bottom:40px; 
+} */
+/* .form-control{
+    background-color: transparent;
+}  */
+/* .section7{
+    text-align: center;
+    padding-top: 70px;
+}  */
+/* footer{
+    text-align: center;
+    padding-top: 70px;
+} */
+ 
+ 
