@@ -6,14 +6,14 @@
          $("#design-image").toggle();
           $("#design-info").toggle();
      });
-    // $("#dev-image").click(function(){
-    //     $("#dev-image").toggle();
-    //      $("#dev-info").toggle();
-    // });
-    // $("#dev-info").click(function(){
-    //     $("#dev-image").toggle();
-    //      $("#dev-info").toggle();
-    // });
+     $("#dev-image").click(function(){
+         $("#dev-image").toggle();
+          $("#dev-info").toggle();
+     });
+    $("#dev-info").click(function(){
+         $("#dev-image").toggle();
+          $("#dev-info").toggle();
+     });
     // $("#prod-image").click(function(){
     //     $("#prod-image").toggle();
     //      $("#prod-info").toggle();
