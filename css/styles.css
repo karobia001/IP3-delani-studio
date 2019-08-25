@@ -27,7 +27,7 @@
 .section5 .row{
     text-align: center;
 }*
-/*#design-info{
+#design-info{
     display:none;
 }
 #dev-info{
@@ -35,7 +35,7 @@
 }
 #prod-info{
     display: none;
-} */
+} 
 /* .section6{
     background-image: url(../ip3-assets/assets/backgrounds/c_image.jpg);
     text-align:center;
