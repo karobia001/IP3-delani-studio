@@ -1,6 +1,8 @@
+
+
  .section1{
     background-image: url(../ip3-assets/assets/backgrounds/h_img.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     
 
@@ -61,9 +63,48 @@ name-detail{
     text-align: center;
     padding-top: 70px;
 }  
-/* footer{
+footer{
     text-align: center;
     padding-top: 70px;
-} */
- 
- 
+} 
+.container{
+    position: relative;
+  width: 50%;
+}
+h1{
+    font-family: 'Michroma', sans-serif;
+}
+h3{
+    font-family: 'Abril Fatface', cursive;
+}
+p{
+    font-family: 'Courgette', cursive;
+}
+ .info1{
+     background-color: black;
+     color: antiquewhite;
+     opacity: 0.5;
+     display: none;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     width: 135px;
+     height: 110px;
+     background-size: cover;
+ }
+ .info2,.info3,.info4,.info5,.info6,.info7,.info8{
+    background-color:white;
+    color: black;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 135px;
+    height: 110px;
+    background-size: cover; 
+      
+ }
+ h5{
+    font-family: 'Leckerli One', cursive;
+ }

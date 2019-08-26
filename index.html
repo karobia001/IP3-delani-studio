@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delani3</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Courgette|Leckerli+One|Michroma|Monda|Russo+One&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="./js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 </head>
-
 <body>
      <div class="container-fluid">
         <div class="section1">
@@ -20,7 +20,7 @@
                 <p></p>
                 <img src="ip3-assets/assets/logo/logo.png">
                 <br><br><br><br><br><br> 
-                <<h1><strong>WELCOME</strong></h1>
+                <h1><strong>WELCOME</strong></h1>
 
                 <h1><strong>TO DELANI STUDIO</strong></h1>
                 <p><strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</strong></p>
@@ -28,7 +28,7 @@
                 <img src="ip3-assets/assets/mouse_click.png">
             </div>
         </div>
-        < <div class="section2">
+         <div class="section2">
 
             <h3><strong>ABOUT US</strong></h3><br>
             <p>When you work with us, you are part of a team of committed collaborators.All aspects of our
@@ -90,49 +90,65 @@
             <h3><strong>PORTFOLIO</strong></h3>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 md-4 sm-8" class="image">
+                    <div class="col-lg-3 md-4 sm-8" id="image1">
 
-                        <img src="ip3-assets/assets/portfolio/work4.jpg" class="img-thumbnail">
-
+                        <img src="ip3-assets/assets/portfolio/work4.jpg" class="img-thumbnail"  id="im1">
+                       <div class="info1">
+                           <h5><strong>project 1</strong></h5>
+                       </div>
                     </div> 
                    
-                     <div class="col-lg-3 md-4 sm-8" >
+                     <div class="col-lg-3 md-4 sm-8"  id="image2">
 
-                        <img src="ip3-assets/assets/portfolio/work3.jpg" class="img-thumbnail">
-
+                        <img src="ip3-assets/assets/portfolio/work3.jpg" class="img-thumbnail"  id="im2">
+                        <div class="info2">
+                        <h5><strong>project 2</strong></h5>
+                    </div>
                     </div> 
                     
-                    < <div class="col-lg-3 md-4 sm-8">
+                    <div class="col-lg-3 md-4 sm-8"  id="image3">
 
-                        <img src="ip3-assets/assets/portfolio/work2.jpg" class="img-thumbnail">
-
+                        <img src="ip3-assets/assets/portfolio/work2.jpg" class="img-thumbnail"  id="im3">
+                        <div class="info3">
+                        <h5><strong>project 3</strong></h5>
                     </div>
-                    <div class="col-lg-3 md-4 sm-8">
+                    </div>
+                    <div class="col-lg-3 md-4 sm-8" id="image4">
 
-                        <img src="ip3-assets/assets/portfolio/work1.jpg" class="img-thumbnail">
-
+                        <img src="ip3-assets/assets/portfolio/work1.jpg" class="img-thumbnail" id="im4">
+                        <div class="info4">
+                        <h5><strong>project 4</strong></h5>
+                    </div>
                     </div>
                  </div>
                 <div class="row">
-                    <div class="col-lg-3 md-4 sm-8">
+                    <div class="col-lg-3 md-4 sm-8" id="image5">
 
-                        <img src="ip3-assets/assets/portfolio/work5.jpg" class="img-thumbnail">
-
+                        <img src="ip3-assets/assets/portfolio/work5.jpg" class="img-thumbnail"  id="im5">
+                        <div class="info5">
+                        <h5><strong>project 5</strong></h5>
                     </div>
-                    <div class="col-lg-3 md-4 sm-8">
-
-                        <img src="ip3-assets/assets/portfolio/work6.jpg" class="img-thumbnail">
-
                     </div>
-                    <div class="col-lg-3 md-4 sm-8">
+                    <div class="col-lg-3 md-4 sm-8" id="image6">
 
-                        <img src="ip3-assets/assets/portfolio/work7.jpg" class="img-thumbnail">
-
+                        <img src="ip3-assets/assets/portfolio/work6.jpg" class="img-thumbnail" id="im6">
+                        <div class="info6">
+                                <h5><strong>project 6</strong></h5>
+                            </div>
                     </div>
-                    <div class="col-lg-3 md-4 sm-8">
+                    <div class="col-lg-3 md-4 sm-8"  id="image7">
 
-                        <img src="ip3-assets/assets/portfolio/work8.jpg" class="img-thumbnail">
+                        <img src="ip3-assets/assets/portfolio/work7.jpg" class="img-thumbnail" id="im7">
+                        <div class="info7">
+                                <h5><strong>project 7</strong></h5>
+                            </div>
+                    </div>
+                    <div class="col-lg-3 md-4 sm-8" id="image8">
 
+                        <img src="ip3-assets/assets/portfolio/work8.jpg" class="img-thumbnail" id="im8 ">
+                        <div class="info8">
+                                <h5><strong>project 8</strong></h5>
+                            </div>
                     </div>
                 </div>
             </div> 
@@ -155,7 +171,7 @@
                                 <label for="Message"></label>
                                 <textarea class="form-control" placeholder="Your Message is here..." id="textarea" rows="9"></textarea>
                             </div>
-                            <button type="submit"class="btn btn-primary">Submit</button>
+                            <button type="submit"class="btn btn-primary" onclick="valid()">Submit</button>
                             </div>   
                         </form>
                 
